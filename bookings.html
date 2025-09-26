@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="images/leaf logo icon.png" type="image/png">
+  <title>Bookings | Good Nature Vegan Food</title>
+  <link rel="stylesheet" href="css/styles.css" />
+<!--Header-->
+  <header>
+    <div class="title-wrapper">
+      <h1>Good Nature Vegan</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#" class="active">Bookings</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+</head>
+
+<body>
+  <section class="booking">
+    <h2>Reserve Your Table</h2>
+    <p>We’d love to host you. Fill out the form below and we’ll confirm your booking shortly.</p>
+
+    <form class="booking-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="date">Preferred Date</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="time">Preferred Time</label>
+      <input type="time" id="time" name="time" required />
+
+      <label for="guests">Number of Guests</label>
+      <input type="number" id="guests" name="guests" min="1" max="20" required />
+
+      <label for="notes">Special Requests</label>
+      <textarea id="notes" name="notes" rows="4" placeholder="Allergies, seating preferences, etc."></textarea>
+
+      <button type="submit" class="cta-button">Submit Booking</button>
+    </form>
+  </section>
+
+  </body>
+
+  <footer>
+    <p>&copy; 2025 Good Nature Vegan Food | Crafted with care in Sandton</p>
+    <p class="footer-credit">
+      Visual assets by the following <a href="credits.html" target="_blank">Photographers</a>. Used with appreciation.
+    </p>
+  </footer>
+
+
+</html>

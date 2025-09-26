@@ -1,0 +1,25 @@
+CHANGELOG — Good Nature Vegan Food Site
+Date: 2025-09-26
+
+[Layout]
+- Adjusted .recipe-card to allow two cards per row on desktop
+- Increased .recipes container max-width from 800px to 1200px for better spacing
+
+[Menu Section]
+- Set fixed size for .menu-img (250x250px) with object-fit: cover
+- Centered images using margin-left/right: auto
+- Added spacing between images using margin-bottom and container gap
+- Wrapped each image in .menu-card for better layout control
+
+[Responsive Design]
+- Added media query for screens under 768px to stack recipe cards vertically
+- Ensured menu images scale properly on smaller screens
+
+[Content Additions]
+- Added new dish: Forest Cream Gnocchi with chef’s description
+- Added new dish: Golden Grove Flatbreads with chef’s description
+- Added new dish: Spiced Lentil Harmony Bowl with chef’s description
+
+[Visual Polish]
+- Unified image sizing across recipe and menu sections
+- Maintained artisan styling with shadows, rounded corners, and centered layout
